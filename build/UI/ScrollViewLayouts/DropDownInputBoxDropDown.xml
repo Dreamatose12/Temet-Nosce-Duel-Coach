@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<View view_layout="vertical" h_alignment="Center" layout_borders="Rect(1,1,1,1)">
+		<TextView name="TextLabel" h_alignment="Center" layout_borders="Rect(0,0,0,0)"/>
+		<View view_layout="horizontal" h_alignment="Center" layout_borders="Rect(0,0,0,0)">
+			<DropdownMenu name="DropdownA" layout_borders="Rect(0,0,0,0)"/>
+			<TextInputView name="TextInput" min_size="Point(15,15)" layout_borders="Rect(1,0,1,0)" />
+			<DropdownMenu name="DropdownC" layout_borders="Rect(0,0,0,0)"/>
+		</View>
+	</View>
+</root>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<root>
+	<view view_layout="horizontal">
+		<View  h_alignment="Left">
+			<Button name="ButtonLeft" label="" min_size="Point(84,-1)" layout_borders="Rect(5,5,5,5)"/>
+		</View>
+		<View h_alignment="Right">
+			<Button name="ButtonRight" label="" min_size="Point(84,-1)" layout_borders="Rect(5,5,5,5)"/>
+		</View>
+	</view>
+</root>

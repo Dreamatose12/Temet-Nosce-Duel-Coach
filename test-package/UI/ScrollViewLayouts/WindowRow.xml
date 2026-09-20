@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<BorderView v_alignment="Top" h_alignment="Center" view_layout="Vertical" name="Row" layout_borders="Rect(0,0,0,0)" min_size="Point(1,1)" max_size="Point(1600,1600)">
+		<TextView name="Title" value="" layout_borders="Rect(2,5,2,2)" />
+		<BorderView v_alignment="Top" h_alignment="Center" view_layout="Vertical" name="Section">
+			<View name="Row" view_layout="Vertical" v_alignment="Top" h_alignment="Center" layout_borders="Rect(5,5,5,5)" max_size="Point(16000,-1)" >
+				<Haxxor/>
+			</View>
+		</BorderView>
+		<VLayoutSpacer/>
+	</BorderView>
+</root>

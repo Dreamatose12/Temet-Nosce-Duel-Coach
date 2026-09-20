@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<root>
+	<BorderView v_alignment="TOP" h_alignment="Center" view_layout="Vertical" name="False Professions" layout_borders="Rect(0,0,0,2)" max_size="Point(16000,-1)">
+
+		<View view_layout="center">
+			<OptionCheckBox label="Cast FP" opt_category="AOSharp" opt_type="variant" layout_borders="Rect(20,10,0,5)" opt_variable="ProfessionHandler__CastFP"/>
+			<OptionCheckBox label="Alternate FP" opt_category="AOSharp" opt_type="variant" layout_borders="Rect(20,10,0,5)" opt_variable="ProfessionHandler__Alternate"/>
+		</View>
+		
+		<View view_layout="vertical" h_alignment="Center" layout_borders="Rect(1,1,1,1)">
+			<TextView value="False Prof Option1" h_alignment="center" layout_borders="Rect(0,0,0,1)"/>
+			<DropDownMenu name="FalseProfOption1" layout_borders="Rect(10,1,5,1)" opt_variable="ProfessionHandler__FalseProfOption1"/>
+		</View>
+		<View view_layout="vertical" h_alignment="Center" layout_borders="Rect(1,1,1,1)">
+			<TextView value="False Prof Option 2" h_alignment="center" layout_borders="Rect(0,0,0,1)"/>
+			<DropDownMenu name="FalseProfOption2" layout_borders="Rect(10,1,5,1)" opt_variable="ProfessionHandler__FalseProfOption2"/>
+		</View>
+
+		<BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(5,5,5,5)"/>
+		<BorderView>
+			<View name="DynamicButtons" view_layout="vertical" v_alignment="TOP" h_alignment="center" layout_borders="Rect(0,0,0,0)" max_size="Point(16000,-1)">
+				<Haxxor/>
+			</View>
+		</BorderView>
+
+		<BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(5,5,5,5)"/>
+		<Button name="SaveFPSettingsButton" label="Save" layout_borders="Rect(5,5,3,5)"/>
+	</BorderView>
+</root>

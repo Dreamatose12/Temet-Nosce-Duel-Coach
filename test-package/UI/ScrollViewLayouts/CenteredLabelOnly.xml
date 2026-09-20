@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<View>
+		<TextView name="TextLabel" layout_borders="Rect(5,5,5,5)" feature_flags="TVF_MULTILINE"/>
+	</View>
+</root>
+

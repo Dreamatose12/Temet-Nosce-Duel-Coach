@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<Root>
+	<View min_size="Point(187,-1)" name="Root">
+		<BorderView min_size="Point(193,-1)" layout_borders="Rect(4,4,4,4)">
+			<TextView color="0x00FFFF00" layout_borders="Rect(0,2,0,2)" feature_flags="TVF_ENABLE_SHADOW|TVF_RENDER_SHADOW" name="Title" font="ITALIC" value="Template Name"/>
+		</BorderView>
+		<BorderView layout_borders="Rect(4,0,4,4)">
+			<View view_layout="horizontal" layout_borders="Rect(8,8,8,8)">
+				<Button name="Enabled" />
+				<HLayoutSpacer/>
+				<Button name="Info" label="Info" layout_borders="Rect(2,0,0,0)"/>
+				<HLayoutSpacer/>
+				<Button name="Close" label="Close" layout_borders="Rect(2,0,0,0)"/>
+			</View>
+		</BorderView>
+		<BorderView min_size="Point(187,-1)" layout_borders="Rect(4,0,4,4)">
+			<View view_layout="horizontal" layout_borders="Rect(8,8,8,8)">
+				<TextView value="Channel Id:"/>
+				<HLayoutSpacer/>
+				<TextInputView name="ChannelId" feature_flags="TVF_NUMERIC" min_size="Point(23,-1)" max_size="Point(23,-1)"/>
+			</View>
+			<View view_layout="horizontal" layout_borders="Rect(8,8,8,8)">
+				<CheckBox name="OnInjectEnable" layout_borders="Rect(1,0,0,0)" max_size="Point(20,-1)"/>
+				<HLayoutSpacer/>
+				<TextView value="Start On Inject"/>
+			</View>
+		</BorderView>
+	</View>
+</Root>

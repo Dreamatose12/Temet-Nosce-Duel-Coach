@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<root>
+	<BorderView v_alignment="TOP" h_alignment="CENTER" view_layout="vertical" name="Kitting" layout_borders="Rect(0,0,0,2)" max_size="Point(16000,-1)">
+		<TextView value=" " layout_borders="Rect(0,0,0,2)"/>>
+		<View v_alignment="TOP" h_alignment="Left" view_layout="horizontal" layout_borders="Rect(2,2,90,2)" max_size="Point(16000,-1)">
+			<TextView value="Health" min_size="Point(40,14)" max_size="Point(40,14)" layout_borders="Rect(5,5,5,5)"/>
+			<TextView value="Nano" min_size="Point(40,14)" max_size="Point(40,14)" layout_borders="Rect(5,5,5,5)"/>
+			<TextView value="" layout_borders="Rect(5,5,3,5)"/>
+		</View>
+		<View v_alignment="TOP" h_alignment="Left" view_layout="horizontal" layout_borders="Rect(2,2,90,2)" max_size="Point(16000,-1)">
+			<TextInputView name="KitHealthPercentageBox" min_size="Point(40,14)" max_size="Point(40,14)" layout_borders="Rect(5,5,5,5)"/>
+			<TextInputView name="KitNanoPercentageBox" min_size="Point(40,14)" max_size="Point(40,14)" layout_borders="Rect(5,5,5,5)"/>
+			<Button name="Save_Button" label="Save" layout_borders="Rect(5,5,5,5)"/>
+		</View>
+		<TextView value=" " layout_borders="Rect(0,0,0,2)"/>
+	</BorderView>
+</root>

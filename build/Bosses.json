@@ -1,0 +1,1713 @@
+{
+  "4605": [
+    {
+      "Name": "Creepy Spider",
+      "HP": "311819"
+    },
+    {
+      "Name": "Silent Spider",
+      "HP": "208182"
+    },
+    {
+      "Name": "Scrupulous Hiathlin",
+      "HP": "208182"
+    },
+    {
+      "Name": "Apprentice Beasthandler",
+      "HP": "173637"
+    },
+    {
+      "Name": "Tyro Beasthandler",
+      "HP": "208182"
+    },
+    {
+      "Name": "Punctilious Hiathlin",
+      "HP": "208182"
+    },
+    {
+      "Name": "Syros",
+      "HP": "450000"
+    },
+    {
+      "Name": "Limnos",
+      "HP": "450000"
+    },
+    {
+      "Name": "Ithaki",
+      "HP": "450000"
+    },
+    {
+      "Name": "Paxos",
+      "HP": "450000"
+    },
+    {
+      "Name": "Crete",
+      "HP": "450000"
+    },
+    {
+      "Name": "Obsolete Soul Dredge",
+      "HP": "201273"
+    },
+    {
+      "Name": "Bigot Pohihanepael",
+      "HP": "1800000"
+    },
+    {
+      "Name": "Maychwyawi",
+      "HP": "832728"
+    },
+    {
+      "Name": "Steele Filar",
+      "HP": "311819"
+    },
+    {
+      "Name": "Aniitap",
+      "HP": "450000"
+    },
+    {
+      "Name": "Aniitap's Shadow",
+      "HP": "208182"
+    },
+    {
+      "Name": "Afreet Ellis",
+      "HP": "311819"
+    },
+    {
+      "Name": "Medusa Philanderer",
+      "HP": "450000"
+    },
+    {
+      "Name": "Anansi's Favorite",
+      "HP": "311819"
+    },
+    {
+      "Name": "Bia's Favorite",
+      "HP": "311819"
+    },
+    {
+      "Name": "Anansi's Disciple",
+      "HP": "1800000"
+    },
+    {
+      "Name": "Scary Spider",
+      "HP": "1800000"
+    },
+    {
+      "Name": "Numiel",
+      "HP": "311819"
+    },
+    {
+      "Name": "Asanon",
+      "HP": "311819"
+    },
+    {
+      "Name": "Ahomac",
+      "HP": "208182"
+    },
+    {
+      "Name": "Hebiel",
+      "HP": "208182"
+    },
+    {
+      "Name": "Noxious Eremite",
+      "HP": "208182"
+    },
+    {
+      "Name": "Fetid Eremite",
+      "HP": "208182"
+    },
+    {
+      "Name": "Tuq'usk",
+      "HP": "832728"
+    },
+    {
+      "Name": "Isham",
+      "HP": "722182"
+    },
+    {
+      "Name": "Malah-Furcifera",
+      "HP": "208182"
+    },
+    {
+      "Name": "Victor Nonya",
+      "HP": "263637"
+    },
+    {
+      "Name": "Maychwaham",
+      "HP": "832728"
+    },
+    {
+      "Name": "Ushamaham",
+      "HP": "832728"
+    },
+    {
+      "Name": "Atakirh",
+      "HP": "832728"
+    },
+    {
+      "Name": "Akshk'i",
+      "HP": "832728"
+    },
+    {
+      "Name": "Razor the Battletoad",
+      "HP": "3746667"
+    },
+    {
+      "Name": "Salahpt",
+      "HP": "832728"
+    },
+    {
+      "Name": "Lord of the Void",
+      "HP": "2700000"
+    },
+    {
+      "Name": "Tinos",
+      "HP": "450000"
+    },
+    {
+      "Name": "Phatmos",
+      "HP": "450000"
+    },
+    {
+      "Name": "Astypalia",
+      "HP": "436182"
+    },
+    {
+      "Name": "Sanatsimk'",
+      "HP": "450000"
+    },
+    {
+      "Name": "Natsmaahpt",
+      "HP": "450000"
+    },
+    {
+      "Name": "Waywaqa",
+      "HP": "408546"
+    },
+    {
+      "Name": "Ushap'ing",
+      "HP": "450000"
+    },
+    {
+      "Name": "Pyiininnik",
+      "HP": "450000"
+    },
+    {
+      "Name": "Pyiininnik's Shadow",
+      "HP": "208182"
+    },
+    {
+      "Name": "Xark the Battletoad",
+      "HP": "3746667"
+    },
+    {
+      "Name": "Rotting Eremite",
+      "HP": "208182"
+    },
+    {
+      "Name": "Putrid Eremite",
+      "HP": "208182"
+    },
+    {
+      "Name": "Distracted Snake Tamer",
+      "HP": "208182"
+    },
+    {
+      "Name": "Estella Fire",
+      "HP": "832728"
+    },
+    {
+      "Name": "Beast",
+      "HP": "208182"
+    },
+    {
+      "Name": "Hawqana",
+      "HP": "450000"
+    },
+    {
+      "Name": "Ishimk'imk'",
+      "HP": "450000"
+    },
+    {
+      "Name": "Spetses",
+      "HP": "443091"
+    }
+  ],
+  "4005": [
+    {
+      "Name": "Enkindled Spirit",
+      "HP": "416819"
+    },
+    {
+      "Name": "Incandescent Spirit",
+      "HP": "520455"
+    },
+    {
+      "Name": "Conflagrant Spirit",
+      "HP": "520455"
+    },
+    {
+      "Name": "Anansi's Right Hand",
+      "HP": "990000"
+    },
+    {
+      "Name": "Nyame's Drudge",
+      "HP": "450000"
+    },
+    {
+      "Name": "Anansi's Left Hand",
+      "HP": "990092"
+    },
+    {
+      "Name": "Chimera Trainer",
+      "HP": "208182"
+    },
+    {
+      "Name": "Chimera Monitor",
+      "HP": "208182"
+    },
+    {
+      "Name": "Embodiment of Sorrow",
+      "HP": "270637"
+    },
+    {
+      "Name": "Spirit of Coercion",
+      "HP": "156946"
+    },
+    {
+      "Name": "Somphos Sorlivet",
+      "HP": "192578"
+    },
+    {
+      "Name": "Shy Eremite",
+      "HP": "60364"
+    },
+    {
+      "Name": "Anansi Scribe",
+      "HP": "694546"
+    },
+    {
+      "Name": "Anansi Storyteller",
+      "HP": "1665455"
+    },
+    {
+      "Name": "Devoted Spirit Hunter",
+      "HP": "208182"
+    },
+    {
+      "Name": "Bigot Nzaemihiel",
+      "HP": "1800000"
+    },
+    {
+      "Name": "Bigot Inmodeah",
+      "HP": "1800000"
+    },
+    {
+      "Name": "Pursued Spirit",
+      "HP": "208182"
+    },
+    {
+      "Name": "Feral Vortexoid Mindbreaker",
+      "HP": "266646"
+    },
+    {
+      "Name": "Anansi's Abettor",
+      "HP": "443091"
+    },
+    {
+      "Name": "Nyame's Abettor",
+      "HP": "443091"
+    },
+    {
+      "Name": "Asase's Drudge",
+      "HP": "429273"
+    },
+    {
+      "Name": "Tiunissik",
+      "HP": "450000"
+    },
+    {
+      "Name": "Tiunissik's Shadow",
+      "HP": "1800000"
+    },
+    {
+      "Name": "Torrid Spirit",
+      "HP": "208182"
+    },
+    {
+      "Name": "Fanatic Spirit Hunter",
+      "HP": "208182"
+    },
+    {
+      "Name": "Bigot Helozabasael",
+      "HP": "1800000"
+    },
+    {
+      "Name": "Bigot Laniheanheh",
+      "HP": "1800000"
+    },
+    {
+      "Name": "Calamity Eremite",
+      "HP": "207391"
+    },
+    {
+      "Name": "Anansi Dreamkeeper",
+      "HP": "417273"
+    },
+    {
+      "Name": "Spirit of Disruption",
+      "HP": "149310"
+    },
+    {
+      "Name": "Chimera Aberrant",
+      "HP": "139978"
+    }
+  ],
+  "540": [],
+  "4321": [
+    {
+      "Name": "Malah Eadem",
+      "HP": "97908"
+    },
+    {
+      "Name": "Waqamawi",
+      "HP": "202831"
+    },
+    {
+      "Name": "Maywaqaham",
+      "HP": "209847"
+    },
+    {
+      "Name": "Vamoosing Spirit",
+      "HP": "103170"
+    },
+    {
+      "Name": "Skedaddling Spirit",
+      "HP": "48954"
+    },
+    {
+      "Name": "Two-Time Maloney",
+      "HP": "241710"
+    },
+    {
+      "Name": "Rugged Rafter",
+      "HP": "152124"
+    },
+    {
+      "Name": "Abnoba",
+      "HP": "199324"
+    },
+    {
+      "Name": "Vadleany",
+      "HP": "192308"
+    },
+    {
+      "Name": "Lithe Stalker",
+      "HP": "126770"
+    },
+    {
+      "Name": "Boorish Rafter",
+      "HP": "165277"
+    },
+    {
+      "Name": "Nimble Stalker",
+      "HP": "128962"
+    },
+    {
+      "Name": "Folegandros",
+      "HP": "261364"
+    },
+    {
+      "Name": "Skyros",
+      "HP": "261364"
+    },
+    {
+      "Name": "Bony Stalker",
+      "HP": "53339"
+    },
+    {
+      "Name": "Meager Stalker",
+      "HP": "54216"
+    },
+    {
+      "Name": "Slender Rafter",
+      "HP": "120193"
+    },
+    {
+      "Name": "Slight Rafter",
+      "HP": "131154"
+    },
+    {
+      "Name": "Ipakut",
+      "HP": "65616"
+    },
+    {
+      "Name": "Akapan",
+      "HP": "65616"
+    },
+    {
+      "Name": "Zakynthos",
+      "HP": "236728"
+    },
+    {
+      "Name": "Ikaria",
+      "HP": "305819"
+    }
+  ],
+  "4320": [
+    {
+      "Name": "A Resolute Dryad",
+      "HP": "104924"
+    },
+    {
+      "Name": "Pudgy Stalker",
+      "HP": "49831"
+    },
+    {
+      "Name": "Hefty Rafter",
+      "HP": "199324"
+    },
+    {
+      "Name": "Stubby Stalker",
+      "HP": "122385"
+    },
+    {
+      "Name": "Snappy Rafter",
+      "HP": "111939"
+    },
+    {
+      "Name": "Floe",
+      "HP": "157385"
+    },
+    {
+      "Name": "Sleet",
+      "HP": "170539"
+    },
+    {
+      "Name": "Lefkada",
+      "HP": "261364"
+    },
+    {
+      "Name": "Alonissos",
+      "HP": "261364"
+    },
+    {
+      "Name": "Phlegmatic Eremite",
+      "HP": "195816"
+    },
+    {
+      "Name": "Imperturbable  Eremite",
+      "HP": "202831"
+    },
+    {
+      "Name": "A Daring Dryad",
+      "HP": "113693"
+    },
+    {
+      "Name": "A Fearless Dryad",
+      "HP": "111939"
+    },
+    {
+      "Name": "A Dauntless Dryad",
+      "HP": "106677"
+    },
+    {
+      "Name": "Malah-Enimvero",
+      "HP": "99662"
+    },
+    {
+      "Name": "Malah-Enim",
+      "HP": "97908"
+    },
+    {
+      "Name": "Kumparimk",
+      "HP": "192308"
+    },
+    {
+      "Name": "Wataptu",
+      "HP": "206339"
+    },
+    {
+      "Name": "The Hollow's Warden",
+      "HP": "120708"
+    },
+    {
+      "Name": "The Hollow's Ranger",
+      "HP": "117200"
+    },
+    {
+      "Name": "Shadowmane",
+      "HP": "48077"
+    },
+    {
+      "Name": "Breaker Reijo",
+      "HP": "202831"
+    },
+    {
+      "Name": "Death Wing",
+      "HP": "269477"
+    },
+    {
+      "Name": "Maar",
+      "HP": "196847"
+    }
+  ],
+  "4322": [
+    {
+      "Name": "Turris",
+      "HP": "99662"
+    },
+    {
+      "Name": "Sampasa",
+      "HP": "97908"
+    },
+    {
+      "Name": "Cool",
+      "HP": "122385"
+    },
+    {
+      "Name": "Crisp",
+      "HP": "122385"
+    },
+    {
+      "Name": "Ilmatar",
+      "HP": "104924"
+    },
+    {
+      "Name": "Pajainen",
+      "HP": "99662"
+    },
+    {
+      "Name": "Kul-Uasa",
+      "HP": "99662"
+    },
+    {
+      "Name": "Egres",
+      "HP": "96154"
+    },
+    {
+      "Name": "Rauni",
+      "HP": "97908"
+    },
+    {
+      "Name": "Nyrckes",
+      "HP": "97908"
+    },
+    {
+      "Name": "Chilly Gust",
+      "HP": "157385"
+    },
+    {
+      "Name": "Esanell",
+      "HP": "126770"
+    }
+  ],
+  "4873": [
+    {
+      "Name": "Cold Slither",
+      "HP": "140000"
+    },
+    {
+      "Name": "Algid Slither",
+      "HP": "140000"
+    },
+    {
+      "Name": "Chilly Slither",
+      "HP": "140000"
+    },
+    {
+      "Name": "Brumal Slither",
+      "HP": "140000"
+    },
+    {
+      "Name": "Iced Slither",
+      "HP": "140000"
+    },
+    {
+      "Name": "Nippy Slither",
+      "HP": "140000"
+    },
+    {
+      "Name": "Jukes",
+      "HP": "39308"
+    },
+    {
+      "Name": "Stark",
+      "HP": "39308"
+    },
+    {
+      "Name": "Black",
+      "HP": "39308"
+    },
+    {
+      "Name": "Turk",
+      "HP": "39308"
+    },
+    {
+      "Name": "Skylight",
+      "HP": "39308"
+    },
+    {
+      "Name": "Mull",
+      "HP": "39308"
+    },
+    {
+      "Name": "Peristaltic Aversion",
+      "HP": "39308"
+    },
+    {
+      "Name": "Peristaltic Abomination",
+      "HP": "48077"
+    },
+    {
+      "Name": "Trip",
+      "HP": "73354"
+    },
+    {
+      "Name": "Trap",
+      "HP": "69847"
+    },
+    {
+      "Name": "Trup",
+      "HP": "69847"
+    },
+    {
+      "Name": "Tiny",
+      "HP": "78616"
+    }
+  ],
+  "4872": [
+    {
+      "Name": "Wobbly Visitant",
+      "HP": "61077"
+    },
+    {
+      "Name": "Whispering Visitant",
+      "HP": "61077"
+    },
+    {
+      "Name": "Wilted Visitant",
+      "HP": "61077"
+    },
+    {
+      "Name": "Weary Visitant",
+      "HP": "61077"
+    },
+    {
+      "Name": "Snatching Soul Dredge",
+      "HP": "61077"
+    },
+    {
+      "Name": "Scratching Soul Dredge",
+      "HP": "61077"
+    },
+    {
+      "Name": "Tearing Soul Dredge",
+      "HP": "61077"
+    },
+    {
+      "Name": "Gashing Soul Dredge",
+      "HP": "61077"
+    },
+    {
+      "Name": "Skulking Dryad",
+      "HP": "39308"
+    },
+    {
+      "Name": "Lurking Dryad",
+      "HP": "39308"
+    },
+    {
+      "Name": "Mooching Dryad",
+      "HP": "39308"
+    },
+    {
+      "Name": "Stealing Dryad",
+      "HP": "30539"
+    },
+    {
+      "Name": "Snaking Dryad",
+      "HP": "39308"
+    },
+    {
+      "Name": "Slinking Dryad",
+      "HP": "39308"
+    },
+    {
+      "Name": "Wicked Soul Dredge",
+      "HP": "69847"
+    },
+    {
+      "Name": "Vile Spirit",
+      "HP": "69847"
+    },
+    {
+      "Name": "Corrupt Spirit",
+      "HP": "69847"
+    },
+    {
+      "Name": "Irascible  Golem",
+      "HP": "140000"
+    },
+    {
+      "Name": "Cranky Golem",
+      "HP": "140000"
+    },
+    {
+      "Name": "Crabby Golem",
+      "HP": "140000"
+    },
+    {
+      "Name": "Cantankerous  Golem",
+      "HP": "140000"
+    },
+    {
+      "Name": "Sinful Soul Dredge",
+      "HP": "78616"
+    },
+    {
+      "Name": "Iniquitous Spirit",
+      "HP": "69847"
+    },
+    {
+      "Name": "Delinquent Spirit",
+      "HP": "69847"
+    }
+  ],
+  "4881": [
+    {
+      "Name": "Euphoric Spirit",
+      "HP": "13000"
+    },
+    {
+      "Name": "Jovial Spirit",
+      "HP": "13000"
+    },
+    {
+      "Name": "Oppressing Soul Dredge",
+      "HP": "11411"
+    },
+    {
+      "Name": "Noxious Minx",
+      "HP": "52000"
+    },
+    {
+      "Name": "Rancid Imp",
+      "HP": "13000"
+    },
+    {
+      "Name": "Purulent Imp",
+      "HP": "13000"
+    },
+    {
+      "Name": "Festering Imp",
+      "HP": "13000"
+    },
+    {
+      "Name": "Pustular Imp",
+      "HP": "13000"
+    },
+    {
+      "Name": "Thieving Spirit",
+      "HP": "15715"
+    },
+    {
+      "Name": "Plagued Spirit",
+      "HP": "13000"
+    },
+    {
+      "Name": "Harrowing Soul Dredge",
+      "HP": "11411"
+    },
+    {
+      "Name": "Tormented Spirit",
+      "HP": "13000"
+    },
+    {
+      "Name": "Tortured Spirit",
+      "HP": "13000"
+    },
+    {
+      "Name": "Dolored Spirit",
+      "HP": "13000"
+    },
+    {
+      "Name": "Mephitic Minx",
+      "HP": "52000"
+    },
+    {
+      "Name": "Dismal Soul Dredge",
+      "HP": "13000"
+    },
+    {
+      "Name": "Prosy Soul Dredge",
+      "HP": "13000"
+    },
+    {
+      "Name": "Jejune Soul Dredge",
+      "HP": "13000"
+    },
+    {
+      "Name": "Gloomy Spirit",
+      "HP": "13000"
+    },
+    {
+      "Name": "Pleasant Soul Dredge",
+      "HP": "13000"
+    },
+    {
+      "Name": "Gentle Soul Dredge",
+      "HP": "13000"
+    },
+    {
+      "Name": "Cordial Soul Dredge",
+      "HP": "13000"
+    },
+    {
+      "Name": "Disconsulate Rage",
+      "HP": "22822"
+    },
+    {
+      "Name": "Mirthful Spirit",
+      "HP": "13000"
+    },
+    {
+      "Name": "Robust Girder",
+      "HP": "13000"
+    },
+    {
+      "Name": "Solid Girder",
+      "HP": "13000"
+    },
+    {
+      "Name": "Rugged Girder",
+      "HP": "13000"
+    },
+    {
+      "Name": "Snaamehiel",
+      "HP": "13000"
+    },
+    {
+      "Name": "Coah",
+      "HP": "13000"
+    },
+    {
+      "Name": "Caal",
+      "HP": "13000"
+    },
+    {
+      "Name": "Firekeeper Argoth",
+      "HP": "83385"
+    },
+    {
+      "Name": "Obese Spider",
+      "HP": "13000"
+    },
+    {
+      "Name": "Heavy Spider",
+      "HP": "13000"
+    },
+    {
+      "Name": "Beefy Spider",
+      "HP": "13000"
+    },
+    {
+      "Name": "Gross Spider",
+      "HP": "13000"
+    },
+    {
+      "Name": "Benacen",
+      "HP": "13000"
+    },
+    {
+      "Name": "Neferu",
+      "HP": "13000"
+    },
+    {
+      "Name": "Tcheser",
+      "HP": "13000"
+    },
+    {
+      "Name": "Shet",
+      "HP": "13000"
+    },
+    {
+      "Name": "Penkha",
+      "HP": "13000"
+    },
+    {
+      "Name": "Sebtitis",
+      "HP": "13000"
+    },
+    {
+      "Name": "Ptahmose",
+      "HP": "13000"
+    },
+    {
+      "Name": "Naxos",
+      "HP": "104546"
+    },
+    {
+      "Name": "Lesvos",
+      "HP": "173637"
+    },
+    {
+      "Name": "Sifnos",
+      "HP": "104546"
+    },
+    {
+      "Name": "Kalymnos",
+      "HP": "173637"
+    },
+    {
+      "Name": "Mykonos",
+      "HP": "173637"
+    },
+    {
+      "Name": "Poros",
+      "HP": "242728"
+    },
+    {
+      "Name": "Kefallonia",
+      "HP": "970910"
+    },
+    {
+      "Name": "Shadowy Bravado",
+      "HP": "11411"
+    },
+    {
+      "Name": "Shadowy Illusion",
+      "HP": "11411"
+    },
+    {
+      "Name": "Crocked Casuist",
+      "HP": "13000"
+    },
+    {
+      "Name": "Asatix",
+      "HP": "13000"
+    },
+    {
+      "Name": "Atezac",
+      "HP": "13000"
+    },
+    {
+      "Name": "Haxxor",
+      "HP": "7857"
+    },
+    {
+      "Name": "Roxxor",
+      "HP": "7857"
+    },
+    {
+      "Name": "Viram Ravata",
+      "HP": "13000"
+    },
+    {
+      "Name": "Yotidar Baliddh",
+      "HP": "26000"
+    },
+    {
+      "Name": "Nab Vangana",
+      "HP": "13000"
+    },
+    {
+      "Name": "Pusu Omankan",
+      "HP": "13000"
+    }
+  ],
+  "4880": [
+    {
+      "Name": "Gir Bhavina",
+      "HP": "13000"
+    },
+    {
+      "Name": "Madanda Vishudr",
+      "HP": "13000"
+    },
+    {
+      "Name": "Saunik Ray",
+      "HP": "13000"
+    },
+    {
+      "Name": "Harijay Durjand",
+      "HP": "13000"
+    },
+    {
+      "Name": "Snarling Chimera",
+      "HP": "10400"
+    },
+    {
+      "Name": "Yapping Chimera",
+      "HP": "10400"
+    },
+    {
+      "Name": "Barking Chimera",
+      "HP": "10400"
+    },
+    {
+      "Name": "Growling Chimera",
+      "HP": "10400"
+    },
+    {
+      "Name": "Beefy Spider",
+      "HP": "13000"
+    },
+    {
+      "Name": "Heavy Spider",
+      "HP": "13000"
+    },
+    {
+      "Name": "Gross Spider",
+      "HP": "13000"
+    },
+    {
+      "Name": "Obese Spider",
+      "HP": "13000"
+    },
+    {
+      "Name": "Nebamun",
+      "HP": "11411"
+    },
+    {
+      "Name": "Thapt",
+      "HP": "11411"
+    },
+    {
+      "Name": "Webensenu",
+      "HP": "11411"
+    },
+    {
+      "Name": "Nabur",
+      "HP": "11411"
+    },
+    {
+      "Name": "Sa-en-ankh",
+      "HP": "11411"
+    },
+    {
+      "Name": "Kheferu",
+      "HP": "11411"
+    },
+    {
+      "Name": "Laki",
+      "HP": "17978"
+    },
+    {
+      "Name": "Vinstur",
+      "HP": "17310"
+    },
+    {
+      "Name": "Swirling Eremite",
+      "HP": "32500"
+    },
+    {
+      "Name": "Coiling Eremite",
+      "HP": "32500"
+    },
+    {
+      "Name": "Crinkling Eremite",
+      "HP": "32500"
+    },
+    {
+      "Name": "Bending Eremite",
+      "HP": "13000"
+    },
+    {
+      "Name": "Twirling Eremite",
+      "HP": "32500"
+    },
+    {
+      "Name": "Keppur",
+      "HP": "16643"
+    },
+    {
+      "Name": "Dirty Girder",
+      "HP": "13000"
+    },
+    {
+      "Name": "Sloughy Girder",
+      "HP": "13000"
+    },
+    {
+      "Name": "Quaggy Girder",
+      "HP": "13000"
+    },
+    {
+      "Name": "Boggy Girder",
+      "HP": "13000"
+    }
+  ],
+  "4544": [
+    {
+      "Name": "Catervauling Minx",
+      "HP": "42465"
+    },
+    {
+      "Name": "Screeching Imp",
+      "HP": "21233"
+    },
+    {
+      "Name": "Disturbing Imp",
+      "HP": "21233"
+    },
+    {
+      "Name": "Cacophonous Imp",
+      "HP": "21233"
+    },
+    {
+      "Name": "Swriling Eremite",
+      "HP": "15470"
+    },
+    {
+      "Name": "Sparkling Eremite",
+      "HP": "6188"
+    },
+    {
+      "Name": "Coiling Eremite",
+      "HP": "15470"
+    },
+    {
+      "Name": "Bending Eremite",
+      "HP": "15470"
+    },
+    {
+      "Name": "Arachno Frigida",
+      "HP": "26541"
+    }
+  ],
+  "4543": [
+    {
+      "Name": "Chiit",
+      "HP": "19643"
+    },
+    {
+      "Name": "Inicha",
+      "HP": "10617"
+    },
+    {
+      "Name": "Aniuchach",
+      "HP": "26541"
+    },
+    {
+      "Name": "Ichiachich",
+      "HP": "21233"
+    },
+    {
+      "Name": "Tuaninnik",
+      "HP": "21233"
+    },
+    {
+      "Name": "Ossuz",
+      "HP": "11465"
+    },
+    {
+      "Name": "Tdecin",
+      "HP": "12376"
+    },
+    {
+      "Name": "Athlar",
+      "HP": "11465"
+    },
+    {
+      "Name": "Zias",
+      "HP": "12376"
+    },
+    {
+      "Name": "Sadistic Soul Dredge",
+      "HP": "24751"
+    },
+    {
+      "Name": "Lost Soul",
+      "HP": "22929"
+    },
+    {
+      "Name": "Comatosed Soul",
+      "HP": "22929"
+    },
+    {
+      "Name": "Waning Soul",
+      "HP": "17197"
+    }
+  ],
+  "4542": [
+    {
+      "Name": "Brutish Dryad",
+      "HP": "21108"
+    },
+    {
+      "Name": "Limber Dryad",
+      "HP": "10554"
+    },
+    {
+      "Name": "Splintered Girder",
+      "HP": "21108"
+    },
+    {
+      "Name": "Waning Soul",
+      "HP": "17197"
+    },
+    {
+      "Name": "Limping Predator",
+      "HP": "21108"
+    },
+    {
+      "Name": "Wounded Predator",
+      "HP": "21108"
+    },
+    {
+      "Name": "Pained Predator",
+      "HP": "21108"
+    },
+    {
+      "Name": "Howling Predator",
+      "HP": "21108"
+    }
+  ],
+  "4541": [
+    {
+      "Name": "Screeching Imp",
+      "HP": "21233"
+    },
+    {
+      "Name": "Howling Minx",
+      "HP": "42465"
+    },
+    {
+      "Name": "Cacophonous Imp",
+      "HP": "21233"
+    },
+    {
+      "Name": "Asperous Imp",
+      "HP": "21233"
+    },
+    {
+      "Name": "Disturbing Imp",
+      "HP": "21233"
+    },
+    {
+      "Name": "Tdecin",
+      "HP": "12376"
+    },
+    {
+      "Name": "Zias",
+      "HP": "12376"
+    },
+    {
+      "Name": "Ossuz",
+      "HP": "11465"
+    },
+    {
+      "Name": "Athlar",
+      "HP": "11465"
+    }
+  ],
+  "4540": [
+    {
+      "Name": "Mortiig Chieftain",
+      "HP": "19758"
+    },
+    {
+      "Name": "Squasher",
+      "HP": "12348"
+    },
+    {
+      "Name": "Crusher",
+      "HP": "12348"
+    },
+    {
+      "Name": "Limber Dryad",
+      "HP": "10554"
+    },
+    {
+      "Name": "Brutish Dryad",
+      "HP": "21108"
+    },
+    {
+      "Name": "Waning Soul",
+      "HP": "17197"
+    },
+    {
+      "Name": "Comatosed Soul",
+      "HP": "22929"
+    },
+    {
+      "Name": "Sadistic Soul Dredge",
+      "HP": "24751"
+    },
+    {
+      "Name": "Inicha",
+      "HP": "10617"
+    },
+    {
+      "Name": "Aniuchach",
+      "HP": "26541"
+    },
+    {
+      "Name": "Ichiachich",
+      "HP": "21233"
+    },
+    {
+      "Name": "Tuaninnik",
+      "HP": "21233"
+    },
+    {
+      "Name": "Suininnik",
+      "HP": "21233"
+    }
+  ],
+  "4311": [
+    {
+      "Name": "Tormenter of Growth",
+      "HP": "3760"
+    },
+    {
+      "Name": "Blighter of Growth",
+      "HP": "3760"
+    },
+    {
+      "Name": "Ehmat",
+      "HP": "5800"
+    },
+    {
+      "Name": "Heru-Maat",
+      "HP": "5800"
+    },
+    {
+      "Name": "Stunter of Growth",
+      "HP": "1980"
+    },
+    {
+      "Name": "Ahwere",
+      "HP": "5800"
+    },
+    {
+      "Name": "Vile Weaver",
+      "HP": "4950"
+    },
+    {
+      "Name": "Hateful Weaver",
+      "HP": "4950"
+    },
+    {
+      "Name": "Mesut-Ra",
+      "HP": "5460"
+    },
+    {
+      "Name": "Nesbaneb",
+      "HP": "5800"
+    },
+    {
+      "Name": "Takheperu",
+      "HP": "4950"
+    },
+    {
+      "Name": "Remur-Nefer",
+      "HP": "5460"
+    }
+  ],
+  "4310": [
+    {
+      "Name": "Hesosas",
+      "HP": "2025"
+    },
+    {
+      "Name": "Deadly Predator",
+      "HP": "2375"
+    },
+    {
+      "Name": "Omathon",
+      "HP": "1500"
+    },
+    {
+      "Name": "Malah-Aya",
+      "HP": "2375"
+    },
+    {
+      "Name": "The Demonic Subjugator",
+      "HP": "3800"
+    },
+    {
+      "Name": "The Lord",
+      "HP": "2375"
+    },
+    {
+      "Name": "Soul Dredge",
+      "HP": "1500"
+    },
+    {
+      "Name": "The Lady",
+      "HP": "1500"
+    },
+    {
+      "Name": "Swiftwind",
+      "HP": "625"
+    }
+  ],
+  "4312": [
+    {
+      "Name": "Saliwata",
+      "HP": "3250"
+    },
+    {
+      "Name": "Malah-Animos",
+      "HP": "3420"
+    },
+    {
+      "Name": "Malah-Aerarium",
+      "HP": "3590"
+    },
+    {
+      "Name": "Waychaw",
+      "HP": "3930"
+    },
+    {
+      "Name": "Aquqa",
+      "HP": "4780"
+    },
+    {
+      "Name": "Hawilli",
+      "HP": "4100"
+    },
+    {
+      "Name": "Malah-Audisse",
+      "HP": "4610"
+    },
+    {
+      "Name": "Hatskiri",
+      "HP": "5800"
+    },
+    {
+      "Name": "Qallyawi",
+      "HP": "4440"
+    },
+    {
+      "Name": "Malah-Animi",
+      "HP": "4440"
+    },
+    {
+      "Name": "Kumpari",
+      "HP": "3760"
+    },
+    {
+      "Name": "Narunkt",
+      "HP": "4440"
+    },
+    {
+      "Name": "Malah-Alter",
+      "HP": "3930"
+    },
+    {
+      "Name": "Sashuqa",
+      "HP": "4100"
+    },
+    {
+      "Name": "The Mountain Claw",
+      "HP": "4950"
+    },
+    {
+      "Name": "Malah-Alinos",
+      "HP": "5460"
+    },
+    {
+      "Name": "Malah-Annos",
+      "HP": "5800"
+    },
+    {
+      "Name": "Malah-Appi",
+      "HP": "5290"
+    },
+    {
+      "Name": "Morbid Weaver",
+      "HP": "6650"
+    },
+    {
+      "Name": "Direful Weaver",
+      "HP": "5800"
+    },
+    {
+      "Name": "Maynatsk",
+      "HP": "5460"
+    }
+  ],
+  "127": [
+    {
+      "Name": "Eumenides",
+      "HP": "2792"
+    },
+    {
+      "Name": "Vergil Aeneid",
+      "HP": "8091"
+    },
+    {
+      "Name": "Abmouth Supremus",
+      "HP": "10324"
+    }
+  ],
+  "1931": [
+    {
+      "Name": "Defender of the Three",
+      "HP": "6597"
+    },
+    {
+      "Name": "The Re-Animator",
+      "HP": "12104"
+    },
+    {
+      "Name": "Lien the Memorystalker",
+      "HP": "24136"
+    },
+    {
+      "Name": "The Curator",
+      "HP": "10753"
+    },
+    {
+      "Name": "Nematet the Custodian of Time",
+      "HP": "43720"
+    },
+    {
+      "Name": "Guardian of Tomorrow",
+      "HP": "25909"
+    },
+    {
+      "Name": "Gartua the Doorkeeper",
+      "HP": "14130"
+    },
+    {
+      "Name": "Aztur the Immortal",
+      "HP": "38630"
+    },
+    {
+      "Name": "Uklesh the Frozen",
+      "HP": "21039"
+    },
+    {
+      "Name": "Khalum",
+      "HP": "25247"
+    }
+  ],
+  "1933": [
+    {
+      "Name": "Unrelenting Fear",
+      "HP": "4039"
+    },
+    {
+      "Name": "Pulsing Hatred",
+      "HP": "4532"
+    },
+    {
+      "Name": "Jealousy",
+      "HP": "6221"
+    },
+    {
+      "Name": "Notum Habit",
+      "HP": "6221"
+    },
+    {
+      "Name": "Sanity's Edge",
+      "HP": "2266"
+    },
+    {
+      "Name": "Neleb the Deranged",
+      "HP": "15818"
+    }
+  ],
+  "1941": [
+    {
+      "Name": "Tri Plumbo",
+      "HP": "28793"
+    },
+    {
+      "Name": "Blind Eyemutant",
+      "HP": "19675"
+    },
+    {
+      "Name": "Captain Rik-Rak Jones",
+      "HP": "33592"
+    },
+    {
+      "Name": "T.I.M.",
+      "HP": "47803"
+    },
+    {
+      "Name": "Lab Director",
+      "HP": "38290"
+    }
+  ],
+  "1943": [
+    {
+      "Name": "Fezael the Watcher",
+      "HP": "295557"
+    },
+    {
+      "Name": "Jeuru the Defiler",
+      "HP": "452791"
+    },
+    {
+      "Name": "Iskop the Idolator",
+      "HP": "452791"
+    },
+    {
+      "Name": "Inobak the Gelid",
+      "HP": "629891"
+    },
+    {
+      "Name": "Dominus Jiannu",
+      "HP": "452791"
+    },
+    {
+      "Name": "Dominus Facut the Bloodless",
+      "HP": "452791"
+    },
+    {
+      "Name": "Dominus Ummoh the Pedagogue",
+      "HP": "377326"
+    },
+    {
+      "Name": "Hezak the Immortal",
+      "HP": "1101861"
+    }
+  ],
+  "1833": [
+    {
+      "Name": "General Severus",
+      "HP": "14903"
+    },
+    {
+      "Name": "Eradicator Deimos",
+      "HP": "11787"
+    },
+    {
+      "Name": "Techleader Praetor",
+      "HP": "15410"
+    },
+    {
+      "Name": "Prototype Inferno",
+      "HP": "20884"
+    },
+    {
+      "Name": "Commander Jocasta",
+      "HP": "22632"
+    }
+  ],
+  "4805": [
+    {
+      "Name": "Alpha Skincrawler",
+      "HP": "39501"
+    },
+    {
+      "Name": "Cerubin The Rejected",
+      "HP": "160423"
+    },
+    {
+      "Name": "Bane",
+      "HP": "33592"
+    }
+  ],
+  "125": [
+    {
+      "Name": "Den Mantis Queen",
+      "HP": "582939"
+    }
+  ]
+}

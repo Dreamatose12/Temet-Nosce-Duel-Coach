@@ -1,0 +1,9 @@
+{
+  "Enabled": false,
+  "AttackPreset": "maxar",
+  "NanoDefensePreset": "maxnr",
+  "LowHealthPreset": "defense",
+  "ReturnPreset": "baseline",
+  "LowHealthPercent": 35,
+  "MinimumSwapIntervalSeconds": 10.0
+}

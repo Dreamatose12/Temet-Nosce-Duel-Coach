@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<View>
+		<View view_layout="horizontal">
+			<TextView name="TextLabel" layout_borders="Rect(5,5,0,5)" />
+			<TextInputView name="TextInput" min_size="Point(15,15)" layout_borders="Rect(5,5,5,5)" />
+			<HLayoutSpacer />
+		</View>
+	</View>
+</root>

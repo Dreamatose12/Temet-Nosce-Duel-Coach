@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<View name="Root" view_layout="vertical" v_alignment="TOP" h_alignment="Center" layout_borders="Rect(5,5,5,5)" max_size="Point(16000,-1)">
+		<Haxxor/>
+	</View>
+</root>

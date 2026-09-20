@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<BorderView v_alignment="Top" h_alignment="Center" view_layout="Vertical" name="BuffWindow" layout_borders="Rect(0,0,0,0)" min_size="Point(1,1)" max_size="Point(1600,1600)">
+
+		<ScrollView v_alignment="Top" h_alignment="Center" v_scrollbar_mode="auto" scroll_client="main_scroll">
+			<ScrollViewChild name="main_scroll">
+
+				<BorderView v_alignment="Top" h_alignment="Center" view_layout="Vertical">
+					<View name="MainListRoot" view_layout="Horizontal" v_alignment="Top" h_alignment="Center" max_size="Point(16000,-1)">
+						<Haxxor/>
+					</View>
+				</BorderView>
+
+				<View name="OptionalVeiw" view_layout="Vertical" v_alignment="Top" h_alignment="Center">
+					<Haxxor/>
+				</View>
+
+			</ScrollViewChild>
+		</ScrollView>
+
+		<Button name="SaveButton" label="Save" layout_borders="Rect(0,5,0,5)" />
+	</BorderView>
+</root>

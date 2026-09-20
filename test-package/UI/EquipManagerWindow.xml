@@ -1,0 +1,73 @@
+<?xml version="1.0" standalone="yes"?>
+<root>
+  <BorderView v_alignment="TOP" h_alignment="CENTER" view_layout="vertical" name="EquipManagerRoot" layout_borders="Rect(8,8,8,8)" max_size="Point(560,650)">
+    <View view_layout="horizontal" layout_borders="Rect(4,2,4,6)">
+      <TextView value="EquipManager" font="BOLD" min_size="Point(430,16)" max_size="Point(430,16)"/>
+      <Button name="CloseWindowButton" label="Close" min_size="Point(70,20)" max_size="Point(70,20)"/>
+    </View>
+
+    <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(4,0,4,6)"/>
+    <TextView value="Preset" font="BOLD" layout_borders="Rect(4,0,4,2)"/>
+    <View view_layout="horizontal" layout_borders="Rect(4,0,4,6)">
+      <TextInputView name="PresetNameInput" min_size="Point(250,18)" max_size="Point(250,18)" layout_borders="Rect(0,0,6,0)"/>
+      <Button name="ApplyPresetButton" label="Equip" min_size="Point(58,22)" max_size="Point(58,22)" layout_borders="Rect(0,0,4,0)"/>
+      <Button name="DryRunButton" label="Preview" min_size="Point(68,22)" max_size="Point(68,22)" layout_borders="Rect(0,0,4,0)"/>
+      <Button name="SaveCurrentButton" label="Save Current" min_size="Point(92,22)" max_size="Point(92,22)"/>
+    </View>
+    <View view_layout="horizontal" layout_borders="Rect(4,0,4,8)">
+      <Button name="CreateMacroButton" label="Create Macro" min_size="Point(100,22)" max_size="Point(100,22)" layout_borders="Rect(0,0,6,0)"/>
+      <Button name="ClearQueueButton" label="Clear Queue" min_size="Point(92,22)" max_size="Point(92,22)"/>
+    </View>
+
+    <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(4,0,4,6)"/>
+    <TextView value="Capture" font="BOLD" layout_borders="Rect(4,0,4,2)"/>
+    <View view_layout="horizontal" layout_borders="Rect(4,0,4,6)">
+      <TextInputView name="CaptureSlotInput" min_size="Point(110,18)" max_size="Point(110,18)" layout_borders="Rect(0,0,6,0)"/>
+      <Button name="SaveSlotButton" label="Save Slot" min_size="Point(86,22)" max_size="Point(86,22)"/>
+    </View>
+    <View view_layout="horizontal" layout_borders="Rect(4,0,4,4)">
+      <Button name="CaptureHud1Button" label="HUD1" min_size="Point(58,24)" max_size="Point(58,24)" layout_borders="Rect(0,0,4,0)"/>
+      <Button name="CaptureHud2Button" label="HUD2" min_size="Point(58,24)" max_size="Point(58,24)" layout_borders="Rect(0,0,4,0)"/>
+      <Button name="CaptureHud3Button" label="HUD3" min_size="Point(58,24)" max_size="Point(58,24)" layout_borders="Rect(0,0,10,0)"/>
+      <Button name="CaptureUtil1Button" label="UTIL1" min_size="Point(62,24)" max_size="Point(62,24)" layout_borders="Rect(0,0,4,0)"/>
+      <Button name="CaptureUtil2Button" label="UTIL2" min_size="Point(62,24)" max_size="Point(62,24)" layout_borders="Rect(0,0,4,0)"/>
+      <Button name="CaptureUtil3Button" label="UTIL3" min_size="Point(62,24)" max_size="Point(62,24)"/>
+    </View>
+    <View view_layout="horizontal" layout_borders="Rect(4,0,4,4)">
+      <Button name="CaptureRHandButton" label="RHAND" min_size="Point(66,24)" max_size="Point(66,24)" layout_borders="Rect(0,0,4,0)"/>
+      <Button name="CaptureLHandButton" label="LHAND" min_size="Point(66,24)" max_size="Point(66,24)" layout_borders="Rect(0,0,4,0)"/>
+      <Button name="CaptureBeltButton" label="BELT" min_size="Point(58,24)" max_size="Point(58,24)" layout_borders="Rect(0,0,10,0)"/>
+      <Button name="CaptureNeckButton" label="NECK" min_size="Point(60,24)" max_size="Point(60,24)" layout_borders="Rect(0,0,4,0)"/>
+      <Button name="CaptureBackButton" label="BACK" min_size="Point(60,24)" max_size="Point(60,24)" layout_borders="Rect(0,0,4,0)"/>
+      <Button name="CaptureHeadButton" label="HEAD" min_size="Point(60,24)" max_size="Point(60,24)"/>
+    </View>
+    <View view_layout="horizontal" layout_borders="Rect(4,0,4,8)">
+      <Button name="CaptureRShoulButton" label="RSHOUL" min_size="Point(72,24)" max_size="Point(72,24)" layout_borders="Rect(0,0,4,0)"/>
+      <Button name="CaptureLShoulButton" label="LSHOUL" min_size="Point(72,24)" max_size="Point(72,24)" layout_borders="Rect(0,0,4,0)"/>
+      <Button name="CaptureRFingButton" label="RFING" min_size="Point(64,24)" max_size="Point(64,24)" layout_borders="Rect(0,0,4,0)"/>
+      <Button name="CaptureLFingButton" label="LFING" min_size="Point(64,24)" max_size="Point(64,24)" layout_borders="Rect(0,0,4,0)"/>
+      <Button name="CaptureRWristButton" label="RWRIST" min_size="Point(70,24)" max_size="Point(70,24)" layout_borders="Rect(0,0,4,0)"/>
+      <Button name="CaptureLWristButton" label="LWRIST" min_size="Point(70,24)" max_size="Point(70,24)"/>
+    </View>
+
+    <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(4,0,4,6)"/>
+    <TextView value="Status" font="BOLD" layout_borders="Rect(4,0,4,2)"/>
+    <TextView name="SummaryView" value="Loading..." min_size="Point(520,92)" max_size="Point(520,92)" layout_borders="Rect(4,0,4,6)"/>
+
+    <View view_layout="horizontal" layout_borders="Rect(4,0,4,6)">
+      <BorderView view_layout="vertical" layout_borders="Rect(0,0,10,0)">
+        <TextView value="Missing" font="BOLD" layout_borders="Rect(0,0,0,2)"/>
+        <TextView name="MissingItemsView" value="Loading..." min_size="Point(250,70)" max_size="Point(250,70)" layout_borders="Rect(0,0,0,4)"/>
+        <Button name="FindMissingButton" label="Find First Missing" min_size="Point(130,22)" max_size="Point(130,22)"/>
+      </BorderView>
+      <BorderView view_layout="vertical">
+        <TextView value="Recent" font="BOLD" layout_borders="Rect(0,0,0,2)"/>
+        <TextView name="RecentResultsView" value="Loading..." min_size="Point(250,98)" max_size="Point(250,98)"/>
+      </BorderView>
+    </View>
+
+    <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(4,0,4,6)"/>
+    <TextView value="Preset Diff" font="BOLD" layout_borders="Rect(4,0,4,2)"/>
+    <TextView name="DiffView" value="Loading..." min_size="Point(520,92)" max_size="Point(520,92)" layout_borders="Rect(4,0,4,2)"/>
+  </BorderView>
+</root>

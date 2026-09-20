@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<BorderView v_alignment="Top" h_alignment="Center" view_layout="Vertical" name="GenericWindow" layout_borders="Rect(0,0,0,0)" min_size="Point(1,1)" max_size="Point(1600,1600)">
+
+		<View view_layout="vertical" h_alignment="Center" layout_borders="Rect(0,0,0,0)">
+			<TextView value="" h_alignment="Center" layout_borders="Rect(0,0,0,0)"/>
+			<OptionCheckBox label="Wait for mp nano comps" opt_category="AOSharp" opt_type="variant" opt_variable="ProfessionHandler__NanoSpellBuffs" layout_borders="Rect(0,0,0,0)"/>
+			<OptionCheckBox label="Wait for Wrangle" opt_category="AOSharp" opt_type="variant" opt_variable="ProfessionHandler__WrangelBuffs" layout_borders="Rect(0,0,0,0)"/>
+			<OptionCheckBox label="Buff pets" opt_category="AOSharp" opt_type="variant" opt_variable="ProfessionHandler__BuffPets" layout_borders="Rect(0,0,0,0)"/>
+			<OptionCheckBox label="Warp pets" opt_category="AOSharp" opt_type="variant" opt_variable="ProfessionHandler__WarpPets" layout_borders="Rect(0,0,0,10)"/>
+		</View>
+
+		<BorderView v_alignment="Top" h_alignment="Center" view_layout="Horizontal">
+			<View name="MainListRoot" view_layout="Horizontal" v_alignment="Top" h_alignment="Left" max_size="Point(16000,-1)">
+				<Haxxor/>
+			</View>
+		</BorderView>
+
+		<View name="OptionalVeiw" view_layout="Vertical" v_alignment="Top" h_alignment="Center">
+			<Haxxor/>
+		</View>
+
+		<Button name="SaveButton" label="Save" layout_borders="Rect(0,5,0,5)" />
+	</BorderView>
+</root>

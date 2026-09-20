@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<root>
+	<BorderView>
+		<View name="InfoRoot">
+			<Haxxor/>
+		</View>
+		<Button name="Close" label="Close" layout_borders="Rect(0,4,0,8)"/>
+	</BorderView>
+</root>

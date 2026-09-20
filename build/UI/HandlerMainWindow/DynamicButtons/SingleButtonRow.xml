@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<root>
+	<View view_layout="horizontal" h_alignment="CENTER">
+		<Button name="ButtonCenter" label="" min_size="Point(84,-1)" layout_borders="Rect(5,5,5,5)"/>
+	</View>
+</root>

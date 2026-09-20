@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<View view_layout="horizontal" h_alignment="center" max_size="Point(16000,-1)" layout_borders="Rect(0,2,0,2)">
+		<View view_layout="vertical" h_alignment="center" min_size="Point(240,-1)" max_size="Point(240,-1)" layout_borders="Rect(2,2,2,2)">
+			<TextView name="TextLabel" h_alignment="center" layout_borders="Rect(0,0,0,1)"/>
+			<DropdownMenu name="DropdownA" layout_borders="Rect(0,0,0,1)"/>
+		</View>
+		<View view_layout="vertical" h_alignment="center" min_size="Point(120,-1)" max_size="Point(120,-1)" layout_borders="Rect(2,2,2,2)">
+			<TextView value="Priority" h_alignment="center" layout_borders="Rect(0,0,0,1)"/>
+			<DropdownMenu name="DropdownB" h_alignment="center" layout_borders="Rect(0,0,0,1)"/>
+		</View>
+		<View view_layout="vertical" h_alignment="center" min_size="Point(100,-1)" max_size="Point(100,-1)" layout_borders="Rect(2,2,0,2)">
+			<TextView value="Target Option" h_alignment="center" layout_borders="Rect(0,0,0,1)"/>
+			<DropdownMenu name="DropdownC" layout_borders="Rect(0,0,0,1)"/>
+		</View>
+	</View>
+</root>

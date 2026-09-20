@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<root>
+	<BorderView v_alignment="TOP" h_alignment="LEFT" view_layout="vertical" name="HelperHelpBox" layout_borders="Rect(0,0,0,2)" max_size="Point(16000,-1)">
+		<TextView value="Select your Morph" layout_borders="Rect(5,5,5,5)" color="0xFFFFFFFF"/>
+		<OptionRadioButtonGroup label="Morphs" layout_borders="Rect(10,1,5,1)" opt_type="variant" opt_variable="ProfessionHandler__MorphSelection">
+			<RadioButton label="None" value="0"/>
+			<RadioButton label="Dragon" value="1"/>
+			<RadioButton label="Saber" value="2"/>
+			<RadioButton label="Wolf" value="3"/>
+			<RadioButton label="Leet" value="4"/>
+			<RadioButton label="Tree" value="5"/>
+		</OptionRadioButtonGroup>
+		<TextView value="" layout_borders="Rect(5,5,5,5)"/>
+	</BorderView>
+</root>

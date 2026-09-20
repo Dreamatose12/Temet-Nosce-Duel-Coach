@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<View view_layout="Horizontal" h_alignment="Center" layout_borders="Rect(1,1,1,1)">
+		<TextView name="StepNumber" value="00" min_size="Point(24,18)" h_alignment="Center" layout_borders="Rect(1,1,1,1)" />
+		<DropdownMenu name="ActionMenu" min_size="Point(225,18)" layout_borders="Rect(1,0,1,0)" />
+		<TextInputView name="DelayInput" min_size="Point(58,18)" layout_borders="Rect(1,0,1,0)" />
+		<Button name="MoveUpButton" label="Up" min_size="Point(34,18)" layout_borders="Rect(1,0,1,0)" />
+		<Button name="MoveDownButton" label="Dn" min_size="Point(34,18)" layout_borders="Rect(1,0,1,0)" />
+	</View>
+</root>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<BorderView v_alignment="Top" h_alignment="Center" view_layout="Vertical" name="DuelBurstRoot" layout_borders="Rect(4,4,4,4)" min_size="Point(420,360)" max_size="Point(1600,1600)">
+		<TextView value="OFFENSIVE BURST SEQUENCER" h_alignment="Center" layout_borders="Rect(0,2,0,4)" />
+		<TextView value="Offensive perks, weapon specials and configured damage items are controlled. Heals, cleanses, debuffs and defensive actions stay live." h_alignment="Center" layout_borders="Rect(4,0,4,4)" />
+
+		<TextView value="PRE-DUEL COUNTDOWN (automatic after acceptance)" h_alignment="Center" layout_borders="Rect(0,2,0,2)" />
+		<TextView value="Enable each action and choose when it is attempted, from 0 to 5000 ms after acceptance." h_alignment="Center" layout_borders="Rect(4,0,4,2)" />
+
+		<View view_layout="Horizontal" h_alignment="Center">
+			<Checkbox name="PreMyOwnFortressEnabled" label="" min_size="Point(20,18)" />
+			<TextView value="My Own Fortress" min_size="Point(160,18)" />
+			<TextInputView name="PreMyOwnFortressAtMs" min_size="Point(55,16)" />
+			<TextView value="ms after accept" min_size="Point(100,18)" layout_borders="Rect(4,0,0,0)" />
+		</View>
+		<View view_layout="Horizontal" h_alignment="Center">
+			<Checkbox name="PreBreakOutEnabled" label="" min_size="Point(20,18)" />
+			<TextView value="Break Out" min_size="Point(160,18)" />
+			<TextInputView name="PreBreakOutAtMs" min_size="Point(55,16)" />
+			<TextView value="ms after accept" min_size="Point(100,18)" layout_borders="Rect(4,0,0,0)" />
+		</View>
+		<View view_layout="Horizontal" h_alignment="Center">
+			<Checkbox name="PreRecalibrateEnabled" label="" min_size="Point(20,18)" />
+			<TextView value="Recalibrate" min_size="Point(160,18)" />
+			<TextInputView name="PreRecalibrateAtMs" min_size="Point(55,16)" />
+			<TextView value="ms after accept" min_size="Point(100,18)" layout_borders="Rect(4,0,0,0)" />
+		</View>
+		<View view_layout="Horizontal" h_alignment="Center" layout_borders="Rect(0,0,0,4)">
+			<Checkbox name="PreAbsoluteConcentrationEnabled" label="" min_size="Point(20,18)" />
+			<TextView value="Absolute Concentration" min_size="Point(160,18)" />
+			<TextInputView name="PreAbsoluteConcentrationAtMs" min_size="Point(55,16)" />
+			<TextView value="ms after accept" min_size="Point(100,18)" layout_borders="Rect(4,0,0,0)" />
+		</View>
+
+		<View view_layout="Horizontal" h_alignment="Center" layout_borders="Rect(0,2,0,4)">
+			<Button name="BurstControlButton" label="Burst Control: OFF" min_size="Point(130,20)" layout_borders="Rect(2,0,2,0)" />
+			<Button name="RunBurstButton" label="Run Burst" min_size="Point(90,20)" layout_borders="Rect(2,0,2,0)" />
+			<Button name="StopBurstButton" label="Stop" min_size="Point(65,20)" layout_borders="Rect(2,0,2,0)" />
+		</View>
+		<TextView value="Burst Control ON automatically runs the saved sequence when normal attack starts. Run Burst remains available for testing or restarting." h_alignment="Center" layout_borders="Rect(4,0,4,3)" />
+
+		<View view_layout="Horizontal" h_alignment="Center" layout_borders="Rect(0,0,0,4)">
+			<TextView value="Retry each blocked step for" layout_borders="Rect(2,2,2,2)" />
+			<TextInputView name="StepTimeoutInput" min_size="Point(55,16)" layout_borders="Rect(2,0,2,0)" />
+			<TextView value="ms before skipping" layout_borders="Rect(2,2,2,2)" />
+		</View>
+
+		<TextView value="Order runs top to bottom. Delay is measured before this action, from the previous successful dispatch." h_alignment="Center" layout_borders="Rect(4,0,4,4)" />
+
+		<View view_layout="Horizontal" h_alignment="Center" layout_borders="Rect(0,0,0,2)">
+			<TextView value="#" min_size="Point(24,16)" h_alignment="Center" />
+			<TextView value="Offensive action" min_size="Point(225,16)" h_alignment="Center" />
+			<TextView value="Delay ms" min_size="Point(58,16)" h_alignment="Center" />
+			<TextView value="Order" min_size="Point(70,16)" h_alignment="Center" />
+		</View>
+
+		<ScrollView v_alignment="Top" h_alignment="Center" v_scrollbar_mode="auto" scroll_client="burst_scroll">
+			<ScrollViewChild name="burst_scroll">
+				<View name="BurstSequenceRows" view_layout="Vertical" v_alignment="Top" h_alignment="Center" max_size="Point(16000,-1)">
+					<Haxxor/>
+				</View>
+			</ScrollViewChild>
+		</ScrollView>
+
+		<Button name="SaveBurstButton" label="Save Sequence" min_size="Point(120,20)" layout_borders="Rect(0,5,0,3)" />
+		<TextView name="BurstStatus" value="Ready." h_alignment="Center" layout_borders="Rect(4,2,4,2)" />
+	</BorderView>
+</root>

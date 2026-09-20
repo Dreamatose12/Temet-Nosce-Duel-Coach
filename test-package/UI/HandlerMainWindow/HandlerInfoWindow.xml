@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<root>
+	<BorderView v_alignment="TOP" h_alignment="center" view_layout="vertical" name="Info" layout_borders="Rect(0,0,0,2)" min_size="Point(1,1)" max_size="Point(1600,1600)">
+
+		<BorderView view_layout="vertical" layout_borders="Rect(5,5,5,5)">
+			<TextView value="Backpacks:" layout_borders="Rect(5,5,5,5)"/>
+			<TextView value="Handlers can use items stored in backpacks named &quot;fannypack&quot;." layout_borders="Rect(5,5,5,5)"/>
+			<TextView value="These backpacks contain usable items such as health kits, nano kits, attack items, or any other handler-usable items." layout_borders="Rect(5,5,5,5)"/>
+			<TextView value="These backpacks can not be empty" layout_borders="Rect(5,5,5,5)"/>
+		</BorderView>
+
+		<BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(5,5,5,5)"/>
+
+		<TextView value="Commands:" layout_borders="Rect(0,0,0,2)"/>
+		<TextView value="/rebuff – Removes buffs the player currently has (does not remove outside buffs)" layout_borders="Rect(0,0,0,2)"/>
+		<TextView value="/rebuff all – Removes all buffs" layout_borders="Rect(0,0,0,2)"/>
+		<TextView value="/handlerchannel – Shows or sets the IPC channel." layout_borders="Rect(0,0,0,2)"/>
+		<TextView value="The only reason to change this is to separate" layout_borders="Rect(0,0,0,2)"/>
+		<TextView value="your box into different groups." layout_borders="Rect(0,0,0,2)"/>
+		<TextView value="It is a local setting ONLY!" layout_borders="Rect(0,0,0,2)"/>
+		<TextView value="/petstats – Shows relevant pet stats" layout_borders="Rect(0,0,0,2)"/>
+		<TextView value="/HandlerSettings – Opens the folder where player settings are saved" layout_borders="Rect(0,0,0,2)"/>
+		<TextView value="/updatesettings – Updates spells, items and perks" layout_borders="Rect(0,0,0,2)"/>
+		<TextView value="/HandlerEnable – Stops and starts the handler base (toggles spell, item and perk auto-usage)" layout_borders="Rect(0,0,0,2)"/>
+		<TextView value="/resetui – Resets all window positions and sizes to their default values" layout_borders="Rect(0,0,0,2)"/>
+
+		<BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(5,5,5,5)"/>
+
+		<BorderView view_layout="vertical" layout_borders="Rect(5,5,5,5)">
+			<TextView value="Settings:" layout_borders="Rect(5,5,5,5)"/>
+			<TextView value="Reserve NCU – Stops alts from buffing you when your available NCU reaches the reserve amount." layout_borders="Rect(5,5,5,5)"/>
+			<TextView value="Wait for mp nano comps - Wait for Metaphysicist Composite Nano Skills" layout_borders="Rect(10,2,5,2)"/>
+			<TextView value="Wait for Wrangle - Wait for Trader Team Wrangle" layout_borders="Rect(10,2,5,2)"/>
+		</BorderView>
+
+		<BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(5,5,5,5)"/>
+
+		<BorderView view_layout="vertical" layout_borders="Rect(5,5,5,5)">
+			<TextView value="Note:" layout_borders="Rect(5,5,5,5)"/>
+			<TextView value="If a window has a Save button, it saves the settings when clicked." layout_borders="Rect(5,5,5,5)"/>
+			<TextView value="If a window does not have a Save button, settings are saved when the window is closed." layout_borders="Rect(5,5,5,5)"/>
+		</BorderView>
+
+		<BorderView view_layout="vertical" layout_borders="Rect(5,5,5,5)">
+			<TextView value="Note:" layout_borders="Rect(5,5,5,5)"/>
+			<TextView value="You must reinject when a new perk, item, or spell is added." layout_borders="Rect(5,5,5,5)"/>
+			<TextView value="These are only registered when the plugin is injected." layout_borders="Rect(5,5,5,5)"/>
+		</BorderView>
+
+		<BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(5,5,5,5)"/>
+
+		<BorderView view_layout="vertical" layout_borders="Rect(5,5,5,5)">
+			<TextView value="Support:" layout_borders="Rect(5,5,5,5)"/>
+			<TextView value="For help or to report issues, send a tell and include what you need help with or a brief description of the issue." layout_borders="Rect(5,5,5,5)"/>
+			<TextView value="/tell serverrack !join" layout_borders="Rect(5,5,5,5)"/>
+		</BorderView>
+
+	</BorderView>
+</root>

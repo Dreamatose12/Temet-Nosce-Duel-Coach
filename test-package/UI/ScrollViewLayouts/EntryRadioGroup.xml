@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<View h_alignment="LEFT" view_layout="vertical" max_size="Point(16000,-1)">
+		<TextView name="TextLabel" layout_borders="Rect(5,5,5,5)"/>
+		<RadioButtonGroup name="OptionRadioButtonGroup" layout_borders="Rect(10,0,0,0)">
+			<RadioButton label="None" value="0"/>
+			<RadioButton label="Target" value="1"/>
+			<RadioButton label="Boss" value="2"/>
+		</RadioButtonGroup>
+	</View>
+</root>

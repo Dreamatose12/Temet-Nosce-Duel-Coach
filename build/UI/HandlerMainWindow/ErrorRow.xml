@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<View view_layout="center">
+		<TextView name="TextLabel" layout_borders="Rect(5,0,5,0)"/>
+	</View>
+</root>
+

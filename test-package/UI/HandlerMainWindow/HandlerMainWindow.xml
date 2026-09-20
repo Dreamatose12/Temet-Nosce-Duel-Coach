@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<root>
+	<BorderView v_alignment="TOP" h_alignment="Center" view_layout="vertical" name="PHMain" layout_borders="Rect(0,0,0,0)" max_size="Point(16000,-1)">
+		<Button name="InfoView" label="Info" layout_borders="Rect(0,5,0,5)" />
+
+		<BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(0,5,0,5)"/>
+
+		<Button name="BroadcastAOE" label="" layout_borders="Rect(0,5,0,5)" min_size="Point(120,-1)"/>
+		<Button name="BroadcastHold" label="" layout_borders="Rect(0,5,0,5)" min_size="Point(120,-1)"/>
+		<Button name="BroadcastRoot" label="Root/Snare Target" layout_borders="Rect(0,5,0,5)" min_size="Point(120,-1)"/>
+		<Button name="BroadcastSpecials" label="" layout_borders="Rect(0,5,0,5)" min_size="Point(120,-1)"/>
+
+		<BorderView v_alignment="TOP" h_alignment="Center" view_layout="vertical" name="NcuSettings" layout_borders="Rect(0,0,0,0)" max_size="Point(16000,-1)">
+
+			<View view_layout="Center">
+				<View view_layout="horizontal">
+					<TextView Value="Reserve NCU" layout_borders="Rect(5,5,0,5)" />
+					<TextInputView name="ReserveNCU" min_size="Point(29,14)" layout_borders="Rect(5,5,5,5)" />
+					<HLayoutSpacer />
+				</View>
+				<Button name="SaveNCUs" label="Save Ncus" layout_borders="Rect(0,5,0,5)"/>
+			</View>
+
+		</BorderView>
+
+		<BorderView v_alignment="TOP" h_alignment="Center" view_layout="vertical" name="BroadcastSettings" layout_borders="Rect(0,0,0,0)" max_size="Point(16000,-1)">
+
+			<View view_layout="center">
+				<OptionCheckBox label="Buffing" opt_category="AOSharp" layout_borders="Rect(0,5,0,2)" opt_type="variant" opt_variable="ProfessionHandler__Buffing"/>
+				<OptionCheckBox label="Composites" opt_category="AOSharp" opt_type="variant" layout_borders="Rect(0,0,0,2)" opt_variable="ProfessionHandler__Composites"/>
+				<OptionCheckBox label="Wait For Rez" opt_category="AOSharp" opt_type="variant" opt_variable="ProfessionHandler__WaitForRez"/>
+				<Button name="BroadcastGlobal" label="Broadcast" layout_borders="Rect(0,5,0,5)" />
+			</View>
+
+		</BorderView>
+			
+		<View view_layout="center">
+			<TextView layout_borders="Rect(0,0,0,0)"/>
+			<View name="Options" view_layout="vertical" v_alignment="TOP" h_alignment="center" layout_borders="Rect(0,0,0,0)" max_size="Point(16000,-1)">
+				<Haxxor/>
+			</View>
+		</View>
+		<TextView layout_borders="Rect(0,5,0,5)"/>
+		<BorderView>
+			<View name="DynamicButtons" view_layout="vertical" v_alignment="TOP" h_alignment="center" layout_borders="Rect(0,0,0,0)" max_size="Point(16000,-1)">
+				<Haxxor/>
+			</View>
+		</BorderView>
+
+		<View view_layout="center">
+			<View name="Errors" view_layout="vertical" v_alignment="TOP" h_alignment="center" layout_borders="Rect(0,0,0,0)" max_size="Point(16000,-1)">
+				<Haxxor/>
+			</View>
+		</View>
+		
+		<BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(0,5,0,5)"/>
+
+		<TextView name="VersionNumber" value="" layout_borders="Rect(0,5,0,5)"/>
+	</BorderView>
+</root>

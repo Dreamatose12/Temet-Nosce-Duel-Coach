@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+		<View view_layout="vertical" h_alignment="Center" layout_borders="Rect(0,1,0,1)">
+			<TextView name="TextLabel" h_alignment="Center" layout_borders="Rect(0,0,0,0)"/>
+			<View view_layout="horizontal" h_alignment="Center" layout_borders="Rect(0,0,0,0)">
+				<DropdownMenu name="DropdownD" layout_borders="Rect(0,0,1,0)"/>
+				<Checkbox name="OptionCheckBoxB" label="" layout_borders="Rect(1,0,0,0)"/>
+			</View>
+		</View>
+</root>
