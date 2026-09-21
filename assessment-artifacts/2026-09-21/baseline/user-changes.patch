@@ -1,0 +1,192 @@
+diff --git a/Profession Handlers/ProfessionHandler.Agent.DuelPractice/AgentDuelPracticeHandler.cs b/Profession Handlers/ProfessionHandler.Agent.DuelPractice/AgentDuelPracticeHandler.cs
+index f73c335..36c599e 100644
+--- a/Profession Handlers/ProfessionHandler.Agent.DuelPractice/AgentDuelPracticeHandler.cs	
++++ b/Profession Handlers/ProfessionHandler.Agent.DuelPractice/AgentDuelPracticeHandler.cs	
+@@ -143,7 +143,15 @@ namespace ProfessionHandler.Agent.DuelPractice
+             if (!UpdatePracticeService()) return;
+             UpdatePendingDuelAcceptance();
+             TrackDuelHealth();
+-            if (!_sessionAccepted || _mode == PracticeMode.Punchbag) return;
++            if (!_sessionAccepted)
++            {
++                if (IsPracticePreparationActive)
++                    base.OnUpdate(deltaTime);
++
++                return;
++            }
++
++            if (_mode == PracticeMode.Punchbag) return;
+             UpdatePreDuelActions();
+             TryStartDuelAttack();
+             TryAutoStartBurstSequence();
+@@ -154,6 +162,9 @@ namespace ProfessionHandler.Agent.DuelPractice
+ 
+         protected override bool ShouldProcessPerkAction(PerkAction perkAction, SimpleChar fightingTarget)
+         {
++            if (!_sessionAccepted)
++                return false;
++
+             if (IsBurstControlledTarget(fightingTarget)
+                 && BurstActionCatalog.IsManagedPerk((int)perkAction.Hash))
+                 return false;
+@@ -165,6 +176,9 @@ namespace ProfessionHandler.Agent.DuelPractice
+ 
+         protected override bool ShouldProcessItemAction(AOSharp.Core.Inventory.Item item, SimpleChar fightingTarget)
+         {
++            if (!_sessionAccepted)
++                return false;
++
+             if (IsBurstControlledTarget(fightingTarget)
+                 && BurstActionCatalog.IsManagedItemId(item.Id))
+                 return false;
+diff --git a/Profession Handlers/ProfessionHandler.Agent.DuelPractice/PracticeService.cs b/Profession Handlers/ProfessionHandler.Agent.DuelPractice/PracticeService.cs
+index 75c093f..ab5360f 100644
+--- a/Profession Handlers/ProfessionHandler.Agent.DuelPractice/PracticeService.cs	
++++ b/Profession Handlers/ProfessionHandler.Agent.DuelPractice/PracticeService.cs	
+@@ -14,7 +14,7 @@ namespace ProfessionHandler.Agent.DuelPractice
+     public partial class AgentDuelPracticeHandler
+     {
+         private enum PracticeMode { Punchbag = 1, WorthyOpponent = 2, AiOverlord = 3 }
+-        private enum PracticeState { Idle, Requested, CooldownCheck, Challenged, Accepted, Countdown, Active, Ending, Recovery }
++        private enum PracticeState { Idle, Requested, CooldownCheck, Preparing, Challenged, Accepted, Countdown, Active, Ending, Recovery }
+         private PracticeState _state = PracticeState.Idle;
+         private PracticeMode _mode;
+         private bool _sessionAccepted;
+@@ -111,7 +111,13 @@ namespace ProfessionHandler.Agent.DuelPractice
+         {
+             if (!PracticeEnabled) return "Practice is disabled by the operator.";
+             if (_sessionAccepted) return $"Practicing {_mode} with {_activeOpponentName} ({_state}).";
+-            if (_invitedOpponent != Identity.None) return "A practice invitation is reserved; please wait.";
++            if (_invitedOpponent != Identity.None)
++            {
++                var preparation = PreparationReason();
++                return preparation == null
++                    ? "A practice invitation is reserved; please wait."
++                    : "Preparing before challenge: " + preparation + ".";
++            }
+             var reason = RecoveryReason();
+             return reason == null ? "Ready. Tell practice 1, practice 2 or practice 3." : "Recovering: " + reason;
+         }
+@@ -185,8 +191,8 @@ namespace ProfessionHandler.Agent.DuelPractice
+             _inviteAt = Time.AONormalTime + DuelAcceptanceDelaySeconds;
+             _inviteExpiresAt = _inviteAt + 60;
+             _invitationSent = false;
+-            SetPracticeState(PracticeState.Requested, "Participant and mode reserved");
+-            Reply(sender, $"{_mode} reserved. I will challenge you in 15 seconds if recovery is still complete. Accept the invitation; cancel ends your session.");
++            SetPracticeState(PracticeState.Preparing, "Participant reserved; self-buff preparation enabled");
++            Reply(sender, $"{_mode} reserved. I will challenge you after preparation and nano recharge are complete. Accept the invitation; cancel ends your session.");
+         }
+ 
+         private string RecoveryReason()
+@@ -213,6 +219,70 @@ namespace ProfessionHandler.Agent.DuelPractice
+             catch (Exception e) { return "readiness unavailable: " + e.GetType().Name; }
+         }
+ 
++        private bool IsPracticePreparationActive
++            => PracticeEnabled && !_sessionAccepted && _invitedOpponent != Identity.None && !_invitationSent;
++
++        private string PreparationReason()
++        {
++            try
++            {
++                if (!IsPracticePreparationActive)
++                    return null;
++
++                if (Spell.HasPendingCast)
++                    return "nano casting";
++
++                if (!IsConfiguredFalseProfessionReady(out var falseProfessionReason))
++                    return falseProfessionReason;
++
++                return null;
++            }
++            catch (Exception e) { return "preparation unavailable: " + e.GetType().Name; }
++        }
++
++        private bool IsConfiguredFalseProfessionReady(out string reason)
++        {
++            reason = null;
++
++            if (!_settings["CastFP"].AsBool())
++                return true;
++
++            if (DynelManager.LocalPlayer.Buffs.Contains(NanoLine.FalseProfession))
++                return true;
++
++            var selectedSpellId = NextConfiguredFalseProfessionSpellId();
++            if (selectedSpellId == 0)
++                return true;
++
++            if (!Spell.Find(selectedSpellId, out Spell spell))
++            {
++                reason = "selected False Profession nano is unavailable";
++                return false;
++            }
++
++            if (!CanCast(spell))
++            {
++                reason = $"waiting for {spell.Name}";
++                return false;
++            }
++
++            reason = $"casting {spell.Name}";
++            return false;
++        }
++
++        private int NextConfiguredFalseProfessionSpellId()
++        {
++            var first = _settings["FalseProfSelection1"].AsInt32();
++            if (first != 0 && _settings["LastFP"].AsInt32() != first)
++                return first;
++
++            var second = _settings["FalseProfSelection2"].AsInt32();
++            if (second != 0 && _settings["LastFP"].AsInt32() != second)
++                return second;
++
++            return 0;
++        }
++
+         private bool UpdatePracticeService()
+         {
+             if (!OwnsPracticeService) return false;
+@@ -231,9 +301,18 @@ namespace ProfessionHandler.Agent.DuelPractice
+                 {
+                     var player = DynelManager.Players.FirstOrDefault(p => p.Identity == _invitedOpponent && p.IsAlive);
+                     var reason = RecoveryReason();
+-                    if (reason != null || player == null || player.DistanceFrom(DynelManager.LocalPlayer) > 20)
++                    var preparation = PreparationReason();
++                    if (reason != null || preparation != null || player == null || player.DistanceFrom(DynelManager.LocalPlayer) > 20)
+                     {
+-                        Reply((uint)_invitedOpponent.Instance, "Invitation cancelled: " + (reason ?? "player out of range"));
++                        if ((reason != null || preparation != null)
++                            && player != null
++                            && player.DistanceFrom(DynelManager.LocalPlayer) <= 20)
++                        {
++                            SetPracticeState(PracticeState.Preparing, preparation ?? reason);
++                            return true;
++                        }
++
++                        Reply((uint)_invitedOpponent.Instance, "Invitation cancelled: " + (reason ?? preparation ?? "player out of range"));
+                         EndPractice("Readiness changed", false);
+                     }
+                     else
+@@ -371,6 +450,9 @@ namespace ProfessionHandler.Agent.DuelPractice
+ 
+         protected override bool ShouldProcessActionTarget(SimpleChar fightingTarget, SimpleChar actionTarget)
+         {
++            if (IsPracticePreparationActive)
++                return actionTarget != null && actionTarget.Identity == DynelManager.LocalPlayer.Identity;
++
+             if (!PracticeEnabled || !_sessionAccepted || _mode == PracticeMode.Punchbag || _teachingPause) return false;
+             if (actionTarget == null || actionTarget.Identity == DynelManager.LocalPlayer.Identity) return true;
+             return CanProcessPlayerTarget(actionTarget);
+@@ -378,6 +460,9 @@ namespace ProfessionHandler.Agent.DuelPractice
+ 
+         protected override bool ShouldProcessSpellAction(Spell spell, SimpleChar fightingTarget)
+         {
++            if (IsPracticePreparationActive)
++                return fightingTarget == null;
++
+             bool allowed = PracticeEnabled && _sessionAccepted && _mode != PracticeMode.Punchbag;
+             if (allowed) _recorder?.Record("actionRequested", new { action = spell?.ToString(), kind = "spell" });
+             return allowed;
